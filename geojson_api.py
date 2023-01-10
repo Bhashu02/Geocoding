@@ -4,7 +4,8 @@ import urllib.error
 import json
 import ssl
 
-api = "AIzaSyBf-CfKnnnLrAwtYOpHtz2CpLm7t-OuB28"
+#you need a specific api key to make this code work. you can get your api key from Google Cloud Console.
+api = "AI******"
 address = "https://maps.googleapis.com/maps/api/geocode/json?"
 
 ctx = ssl.create_default_context()
