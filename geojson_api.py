@@ -31,8 +31,4 @@ while True:
         print("===== Sorry, failed to retrieve =====")
         continue
 
-    print(json.dumps(js, indent=4))
-    # for loc in js["results"]["formatted_address"]:
-    #     print("Latitude: ", ["location"]["lat"])
-    #     print("Longitude: ", ["location"]["lng"])
     print(js["results"][0]["place_id"])
